@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false">
+    <module name="learn.go" />
+    <working_directory value="$PROJECT_DIR$" />
+    <kind value="DIRECTORY" />
+    <package value="learn.go/04.cycle" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/04.cycle/06.calculator.go" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -12,7 +12,6 @@ func main() {
 	n := len(numbers1)
 	fmt.Println(n)
 	for i := 0; i <= n/2; i += 1 {
-		// 疑问？ 为什么定义 i <= n/2;
 		fmt.Println(i)
 		nNumbers1[i], nNumbers1[n-i-1] = numbers1[n-i-1], numbers1[i]
 		fmt.Println(nNumbers1)

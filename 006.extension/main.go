@@ -31,7 +31,7 @@ func main() {
 
 	// 填充日历表
 	monthDays := []int{31, 28 + leapDays, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
-	//weekDays := []string{"一", "二", "三", "四", "五", "六", "日"}
+	weekDays := []string{"一", "二", "三", "四", "五", "六", "日"}
 	month := 0
 	day := 1
 	weekDay := (year + (year-1)/4 - (year-1)/100 + (year-1)/400) % 7 // 计算这一年1月1日是星期几

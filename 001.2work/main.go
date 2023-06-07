@@ -50,7 +50,7 @@ func main() {
 
 	var y4 float64
 	fmt.Println("请输入y4 的值")
-	fmt.Scanln(&y4)
+	fmt.Scanln(&y4)git
 	fmt.Println(y4)
 	//输出第二条线的k值
 	var k2 float64 = (y4 - y3) / (x4 - x3)

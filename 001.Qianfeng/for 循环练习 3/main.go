@@ -13,9 +13,9 @@ func main() {
 				flag = false
 				break
 			}
-			if flag {
-				fmt.Println(i)
-			}
+		}
+		if flag {
+			fmt.Println(i)
 		}
 	}
 }

@@ -17,6 +17,7 @@ func main() {
 	var arry2 [4]int
 	arry2[0] = 3 // 向数组 arry2 中添加数据
 	fmt.Println(arry1, arry2)
+	fmt.Printf("arry2:%T\n", arry2)
 	/*
 		定义一个切片
 			1.切片的定义
@@ -24,7 +25,7 @@ func main() {
 			，就可以得到切片。
 	*/
 	fmt.Println("下面是 slice")
-	arry4 := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+	arry4 := [...]int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 	slice1 := arry4[3:]
 	fmt.Println(slice1)
 	slice1[1] = 99 // 修改切片中的元素
@@ -36,6 +37,9 @@ func main() {
 	fmt.Println("slice1", slice1)
 	slice3 := make([]string, 4)
 	fmt.Println(slice3)
+	fmt.Printf("slice3:%T\n", slice3)
+	fmt.Printf("arry4:%T\n", arry4)
+
 	fmt.Println("下面是切片")
 
 	/*
